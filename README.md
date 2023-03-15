@@ -5,10 +5,10 @@ Table of Contents:
 1. Introduction
 2. Data
 3. Analytics
-4. Data Exploration
-5. Modeling
-6. Results
-7. Conclusion
+4. Data Exploration & Key Insights
+6. Modeling
+7. Results
+8. Conclusion
 
 ### Introduction:
 
@@ -22,19 +22,21 @@ The dataset used in this project is obtained from Kaggle and contains informatio
 
 The Analytics folder contains the Jupyter notebook file, where exploratory data analysis (EDA) is performed to understand the characteristics of the data. The notebook also includes visualization of different features, correlation analysis, and feature engineering. This step is important to select the most important features and remove any irrelevant features.
 
-### Data Exploration:
+### Data Exploration & & Key Insights: 
 We started by exploring the dataset to get a better understanding of the variables and their relationships. We found that:
 
-- The majority of bookings (about 63%) were for city hotels, while the rest were for resort hotels.
-- About 37% of bookings were canceled, indicating a significant challenge for the hotel industry.
-- Bookings made through travel agencies had a higher cancellation rate (about 45%) compared to those made directly with the hotel (about 28%). 
-- A higher percentage of bookings were made for the months of May, June, July, August, and September, while the lowest percentage was for November, December, January, and February.
-- Most bookings were for one or two nights, with a smaller percentage of bookings for longer stays.
-- The cancellation rate was higher for bookings with special requests, such as a specific room type or bed type.
-- The cancellation rate was also higher for bookings made by customers who had previously canceled a reservation.
-- The distribution of cancellation rates varied by country of origin, with some countries having much higher rates than others.
-- Customers who booked a non-refundable rate had a much lower cancellation rate compared to those who booked a flexible rate.
-- The cancellation rate for group bookings was much higher compared to individual bookings.
+- Based on the data provided, the hotel can draw several key insights and recommendations for their department:
+- Most bookings are made relatively close to the check-in date, and the distribution is positively skewed, indicating that the hotel should consider offering incentives or discounts to customers who book further in advance, to encourage more of them to do so.
+- The hotel should implement policies that allow customers to cancel or change their reservations more easily, as this could improve customer satisfaction and loyalty, given the high cancellation rates.
+- Revenue management strategies that take into account the lead time of bookings should be implemented to optimize pricing and maximize revenue.
+- Since most bookings are made close to the check-in date, the hotel should consider implementing policies that allow customers to cancel or change their reservations more easily, as this could improve customer satisfaction and loyalty.
+- The hotel should take into account the seasonal variation in bookings and cancellation rates and adjust their strategies accordingly. April to August have more cancellation rates compared to other months, and July and August have the highest number of bookings.
+- The hotel should focus their marketing efforts towards customers who book far in advance, as they are likely to be a smaller but more committed group of customers.
+- The hotel should also consider diversifying their customer base and not solely rely on customers from Portugal, which accounts for 40% of the bookings.
+- The hotel should consider partnering with offline TA/TO to tap into their 20% market share, as they are the second-largest market segment.
+- Since more than 75% of the customers are transient type, the hotel should focus on offering personalized experiences to retain these customers.
+- The hotel should pay close attention to the meal preferences of their customers, as 77.31% of them preferred Bread & Breakfast, and only 0.66% preferred FB.
+- Finally, the hotel should encourage customers to make special requests and personalize their experiences, given that more than 58% of customers have not made any special requests to the hotels.
 
 ### Modeling:
 
