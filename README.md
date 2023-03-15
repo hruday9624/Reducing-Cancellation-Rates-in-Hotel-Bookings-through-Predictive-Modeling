@@ -25,7 +25,6 @@ The Analytics folder contains the Jupyter notebook file, where exploratory data 
 ### Data Exploration & & Key Insights: 
 We started by exploring the dataset to get a better understanding of the variables and their relationships. We found that:
 
-- Based on the data provided, the hotel can draw several key insights and recommendations for their department:
 - Most bookings are made relatively close to the check-in date, and the distribution is positively skewed, indicating that the hotel should consider offering incentives or discounts to customers who book further in advance, to encourage more of them to do so.
 - The hotel should implement policies that allow customers to cancel or change their reservations more easily, as this could improve customer satisfaction and loyalty, given the high cancellation rates.
 - Revenue management strategies that take into account the lead time of bookings should be implemented to optimize pricing and maximize revenue.
@@ -36,7 +35,15 @@ We started by exploring the dataset to get a better understanding of the variabl
 - The hotel should consider partnering with offline TA/TO to tap into their 20% market share, as they are the second-largest market segment.
 - Since more than 75% of the customers are transient type, the hotel should focus on offering personalized experiences to retain these customers.
 - The hotel should pay close attention to the meal preferences of their customers, as 77.31% of them preferred Bread & Breakfast, and only 0.66% preferred FB.
-- Finally, the hotel should encourage customers to make special requests and personalize their experiences, given that more than 58% of customers have not made any special requests to the hotels.
+- The hotel should encourage customers to make special requests and personalize their experiences, given that more than 58% of customers have not made any special requests to the hotels.
+- The hotel should closely monitor and manage the high cancellation rates, especially for Resort Hotel, which had a cancellation rate of 23%. This could be done by offering flexible cancellation policies or incentivizing customers to not cancel their bookings.
+- The hotel should also consider offering promotions or discounts during the off-peak season to increase bookings and revenue.
+- The data shows that corporate customers hold only 4% of the market share, indicating that the hotel should focus on improving their corporate sales strategies to attract more corporate customers.
+- The hotel should also consider expanding their market segment to include the Aviation market, which only accounts for 0.19% of the bookings.
+- Since customers with NO Deposite are less likely to cancel their bookings, the hotel should consider offering this option to incentivize more customers to book.
+- The hotel should consider using data analytics to identify trends and patterns in customer behavior, such as booking patterns, preferred room types, or meal preferences, to personalize the customer experience and improve customer satisfaction.
+- The hotel should also consider investing in technology solutions such as a customer relationship management (CRM) system or a mobile app to improve the customer experience and increase customer loyalty.
+- Finally, the hotel should pay close attention to customer feedback and use it to improve their services and offerings. This can be done by conducting regular surveys or implementing a feedback system to capture customer feedback in real-time.
 
 ### Modeling:
 
