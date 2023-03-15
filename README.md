@@ -5,8 +5,10 @@ Table of Contents:
 1. Introduction
 2. Data
 3. Analytics
-4. Modeling
-5. Conclusion
+4. Data Exploration
+5. Modeling
+6. Results
+7. Conclusion
 
 ### Introduction:
 
@@ -20,7 +22,7 @@ The dataset used in this project is obtained from Kaggle and contains informatio
 
 The Analytics folder contains the Jupyter notebook file, where exploratory data analysis (EDA) is performed to understand the characteristics of the data. The notebook also includes visualization of different features, correlation analysis, and feature engineering. This step is important to select the most important features and remove any irrelevant features.
 
-### Data Exploration
+### Data Exploration:
 We started by exploring the dataset to get a better understanding of the variables and their relationships. We found that:
 
 - The majority of bookings (about 63%) were for city hotels, while the rest were for resort hotels.
@@ -38,7 +40,7 @@ We started by exploring the dataset to get a better understanding of the variabl
 
 The Modeling folder contains the Jupyter notebook file, where predictive modeling is performed using different machine learning algorithms such as logistic regression, decision tree, and random forest. The performance of each model is evaluated using different metrics such as accuracy, precision, recall, and F1-score. The model with the best performance is selected and used for predictions.
 
-### Results
+### Results:
 Hotel Cancellation Prediction Project Results:
 
 - Logistic Regression: Achieved an accuracy score of 0.80, precision score of 0.68, and recall score of 0.49.
