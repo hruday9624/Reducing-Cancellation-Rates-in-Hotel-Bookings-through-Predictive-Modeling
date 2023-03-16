@@ -8,6 +8,7 @@ Table of Contents:
 4. Data Exploration & Key Insights
 6. Modeling
 7. Results
+8. Hyperparameter Tuning
 8. Conclusion
 
 ### Introduction:
@@ -50,15 +51,26 @@ We started by exploring the dataset to get a better understanding of the variabl
 The Modeling folder contains the Jupyter notebook file, where predictive modeling is performed using different machine learning algorithms such as logistic regression, decision tree, and random forest. The performance of each model is evaluated using different metrics such as accuracy, precision, recall, and F1-score. The model with the best performance is selected and used for predictions.
 
 ### Results:
-Hotel Cancellation Prediction Project Results:
 
-- Logistic Regression: Achieved an accuracy score of 0.80, precision score of 0.68, and recall score of 0.49.
+In this project, four different machine learning models were evaluated based on their accuracy, precision, and recall scores:
 
-- Decision Tree: Achieved an accuracy score of 0.81, precision score of 0.64, and recall score of 0.65.
+- Logistic Regression: Achieved an accuracy score of 0.79, precision score of 0.83, and recall score of 0.91.
 
-- Random Forests: Achieved an accuracy score of 0.84, precision score of 0.76, and recall score of 0.58.
+- Decision Tree: Achieved an accuracy score of 0.80, precision score of 0.87, and recall score of 0.86.
 
-These results suggest that Random Forests outperformed the other two models in terms of accuracy and precision, while Decision Tree had the highest recall score.
+- Random Forests: Achieved an accuracy score of 0.83, precision score of 0.86, and recall score of 0.93.
+
+- Support Vector Machine: Achieved an accuracy score of 0.80, precision score of 0.82 and high recall score of 0.92. 
+
+Based on these scores, it can be concluded that all four models performed well in identifying the target variable. Random Forests achieved the highest accuracy score, with a particularly high recall score, indicating that it is a good choice for this specific use case. However, the other models also performed well, with high precision and recall scores, indicating that they can also be good choices depending on the specific needs of the project.
+
+Therefore, it's important to consider the specific needs of the project and the characteristics of the data when selecting a machine learning model. Additionally, further evaluation and tuning of the models may be necessary to improve their performance and achieve better accuracy, precision, and recall scores.
+
+### Hyperparameter Tuning: 
+
+Based on the initial results and the scores, I have chosen the Random Forest model for further analysis as it performed well compared to other models.
+
+Comparing the original and hyperparameter tuned random forest models, we see that the hyperparameter tuned model has a slightly higher accuracy score (0.851 vs 0.83), but a lower precision score (0.783 vs 0.86) and a much lower recall score (0.626 vs 0.93). This suggests that while the hyperparameter tuned model may have a higher overall accuracy, it is not as effective at correctly identifying true positives as the original model. Therefore, depending on the specific needs of the task, it may be more beneficial to use the original model with a higher precision and recall score, or the hyperparameter tuned model with a higher accuracy score but lower precision and recall scores.
 
 ### Conclusion:
 
